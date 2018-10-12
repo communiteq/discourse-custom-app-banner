@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    custom_app_banner_enabled: "Enable the custom app banners plugin, allowing you to advertise your own apps" 
+    custom_app_banner_android_app: "Reference to your app in the Android Play Store" 
+    custom_app_banner_ios_app: "ID for your app in iTunes" 

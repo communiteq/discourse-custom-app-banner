@@ -1,0 +1,8 @@
+plugins:
+  custom_app_banner_enabled:
+    default: false
+  custom_app_banner_android_app:
+    default: 'com.discourse'
+  custom_app_banner_ios_app:
+    default: '1173672076'
+
