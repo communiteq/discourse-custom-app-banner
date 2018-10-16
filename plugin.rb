@@ -31,7 +31,9 @@ after_initialize do
   end
   
   register_html_builder('server:before-head-close') do
-    "<meta name=\"apple-itunes-app\" content=\"app-id=#{SiteSetting.custom_app_banner_ios_app}\" />"
+    if SiteSetting.custom_app_banner_enabled && SiteSetting.custom_app_banner_ios_app != ''
+      "<meta name=\"apple-itunes-app\" content=\"app-id=#{SiteSetting.custom_app_banner_ios_app}\" />"
+    end
   end
 end
 
